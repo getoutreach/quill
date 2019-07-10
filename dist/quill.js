@@ -8982,7 +8982,7 @@ LinkTooltip = (function(superClass) {
 
   LinkTooltip.DEFAULTS = {
     maxLength: 50,
-    template: '<span class="title">Visit URL:&nbsp;</span> <a href="#" class="url" target="_blank" href="about:blank"></a> <input class="input" type="text"> <span>&nbsp;&#45;&nbsp;</span> <a href="javascript:;" class="change">Change</a> <a href="javascript:;" class="remove">Remove</a> <a href="javascript:;" class="done">Done</a>'
+    template: '<span class="title">Visit URL:&nbsp;</span> <a href="#" class="url" rel="noopener" target="_blank" href="about:blank"></a> <input class="input" type="text"> <span>&nbsp;&#45;&nbsp;</span> <a href="javascript:;" class="change">Change</a> <a href="javascript:;" class="remove">Remove</a> <a href="javascript:;" class="done">Done</a>'
   };
 
   LinkTooltip.hotkeys = {
