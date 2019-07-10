@@ -8,7 +8,7 @@ class LinkTooltip extends Tooltip
     maxLength: 50
     template:
      '<span class="title">Visit URL:&nbsp;</span>
-      <a href="#" class="url" target="_blank" href="about:blank"></a>
+      <a href="#" class="url" target="_blank" rel="noopener" href="about:blank"></a>
       <input class="input" type="text">
       <span>&nbsp;&#45;&nbsp;</span>
       <a href="javascript:;" class="change">Change</a>
